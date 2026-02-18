@@ -1,0 +1,32 @@
+.con{
+    visibility: hidden;
+}
+.house{
+    cursor: wait;
+}
+.image{
+    background: red;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.pic{
+    width: 400px;
+    height: 400px;
+}
+.button{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.li{
+    margin: 10px;
+    padding: 10px;
+    color: aqua;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

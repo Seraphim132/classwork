@@ -1,0 +1,65 @@
+img{
+    object-fit: cover;
+    object-position: top;
+    width: 200px;
+    opacity: 0.5;
+    filter: blur(10px) brightness(3) contrast(120%) invert(20%) hue-rotate(40deg);
+}
+ul{
+    list-style-type: decimal-leading-zero;
+}
+ol{
+    list-style-type: square;
+}
+td{
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    padding: 25px;
+}
+table{
+    border-spacing: 0px;
+    border: 5px solid grey;
+}
+input[type="text"]{
+    color: rebeccapurple;
+    padding: 3px;
+    margin: 8px 0px;
+    border-bottom: 1px solid red;
+    background: rgba(255, 255, 255, 0.2);
+}
+input[type="email"]{
+    color: rgb(51, 61, 153);
+    padding: 6px;
+    margin: 10px 0px;
+    border-bottom:1px solid rgb(0, 255, 81);
+    background: rgba(255, 255, 255, 0.2);
+}
+input[type="number"]{
+    color: rgb(153, 151, 51);
+    padding: 1px;
+    margin: 8px 0px;
+    border-bottom: 1px solid rgb(0, 204, 255);
+    background: rgba(255, 255, 255, 0.2);
+}
+input[type="password"]{
+    color: rgb(153, 51, 51);
+    padding: 12px;
+    margin: 15px 0px;
+    border-bottom: 1px solid rgb(0, 60, 255) ; 
+    background: rgba(255, 255, 255, 0.2);
+}
+input[type="checkbox"]{
+    accent-color: purple;
+    width: 30px;
+    height: 30px;
+}
+input[type="radio"]{
+    accent-color: rgb(0, 128, 21);
+    width: 50px;
+    height: 50px;
+}
+textarea{
+    resize: vertical;
+    width: 150px;
+    height: 200px;
+}

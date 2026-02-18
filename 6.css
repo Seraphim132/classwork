@@ -1,0 +1,88 @@
+*{
+    color: rgb(0, 0, 0);
+}
+.div1 a{
+    color: black;
+}
+.div1>ol>li>a{
+    color: blue;
+}
+.div2>img{
+    width: 100px;
+    height: 100px;
+}
+.div2>div>img{
+    width: 200px;
+    height: 200px;
+}
+.div1>ul+p{
+    color: orange;
+}
+.div1>ol~p{
+    color: purple;
+}
+.name{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: red;
+}
+.name:hover{
+    background: blue;
+    padding: 20px;
+}
+.name:active{
+    background: greenyellow;
+    padding: 15px;
+}
+.inp{
+    color: blue;
+    background: chartreuse;
+}
+.inp::placeholder{
+    color: orange;
+}
+.inp:hover{
+    padding: 20px;
+    background: yellow;
+}
+.inp:focus{
+    padding: 15px;
+    background: purple;
+}
+.but{
+    background: greenyellow;
+    padding: 30px;
+    text-align: center;
+}
+.but button{
+    width: 50px;
+    height: 50px;
+    box-shadow: 3px 4px 5px grey;
+    margin: 10px;
+}
+.but button:first-child{
+    background: brown;
+}
+.but button:last-child{
+    background: gold;
+}
+.but1{
+    background: rgb(255, 47, 248);
+    padding: 30px;
+    text-align: center;
+}
+.but1 button{
+    width: 50px;
+    height: 50px;
+    box-shadow: 3px 4px 5px grey;
+    margin: 10px;
+}
+.but1 button:active{
+    background: blue;
+}
+.but1 button:first-child{
+    border-radius: 0px 0px 0px 20px;
+}
+.but1 button:last-child{
+    border-radius:0px 20px 0px 0px ;
+}

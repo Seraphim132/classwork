@@ -1,0 +1,28 @@
+p{
+    background-image: url(2.jpg);
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    width: fit-content;
+    height: fit-content;
+    padding: 40px 45px 50px 55px;
+    margin: 20px 25px 30px 35px;
+    /* ghfggf */
+    border-radius: 60px;
+    border-top: 10px dashed blue;
+    border-right: 10px groove red;
+    border-bottom: 10px dotted yellow;
+    border-left: 10px ridge green;
+    box-shadow: inset 0px 0px 20px 20px black;
+}
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px) ;
+}

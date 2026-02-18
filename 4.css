@@ -1,0 +1,64 @@
+.first{
+    padding: 20px;
+    margin: 20px auto;
+    text-align: justify;
+    background: blue;
+    position: sticky;
+    top: 10px;
+}
+#img1{
+    object-fit: cover;
+    object-position: top;
+    opacity: 0.5;
+    filter: blur(10px) brightness(20);
+}
+.no2{
+    text-decoration: underline;
+}
+.second{
+    background: red;
+    position: absolute;
+    
+}
+.third{
+    background: green;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+.fourth{
+    word-spacing: 0px;
+}
+.a{
+    color: purple;
+    
+}
+.b{
+    color: blue;
+}
+.c{
+    color: red;
+}
+.d{
+    color: yellow;
+    font-size: 50px;
+}
+.e{
+    color: orange;
+    font-size: 50px;
+}
+.f{
+    color: magenta;
+}
+.g{
+    color: indigo;
+}
+.h{
+    color: gold;
+}
+.ten{
+    background: orange;
+}
+.pic{
+    float: right;
+}

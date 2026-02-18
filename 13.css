@@ -1,0 +1,104 @@
+.but{
+    padding: 20px;
+    transition-property: background padding;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.but:hover{
+    background: red;
+    padding: 25px;
+}
+.img{
+    transform: rotate(150deg) translate(20px, 30px) scale(0.5) skew(25deg);
+    background: radial-gradient( circle, brown, beige, pink, greenyellow );
+    padding: 300px;
+}
+.div1{
+    background: linear-gradient(150deg, brown, beige, pink, greenyellow );
+    padding: 20px;
+}
+.p{
+    padding: 200px;
+    background: repeating-linear-gradient(150deg, blue 10%, green 20%, yellow 30% );
+    margin-bottom: 50px ;
+}
+.p1{
+    background: repeating-radial-gradient(circle, blue 10%, green 20%, yellow 30% );
+    padding: 250px;
+}
+.but1{
+    padding: 20px;
+    transition-property: background padding;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.top{
+    background: brown;
+    margin: 20px;
+    padding: 10px;
+}
+.sel{
+    display: none;
+}
+.log{
+    margin-left: 1000px;
+    margin-right: 30px;
+    padding: 5px;
+}
+.sig{
+    padding: 5px;
+}
+.te{
+    background: orange !important;
+    padding: 30px !important;
+}
+@media screen and (max-width:768px) {
+    .div1{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+    .img{
+        transform: rotate(0deg);
+        scale: 0.3;
+        padding: 30px;
+        background: linear-gradient( 70deg, brown, beige, pink, greenyellow  );
+    }
+    .but1{
+        display: none;
+    }
+    .log{
+        display: none;
+    }
+    .sig{
+        display: none;
+    }
+    .sel{
+        display: flex;
+        flex-direction: row;
+        margin-left: 280px;
+        padding: 3px;
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .top{
+        display: flex;
+        flex-direction: row;
+    }
+}
+.in{
+    background: yellow;
+    padding: 20px;
+
+    ul{
+        list-style-type: none;
+        margin: 2px;
+        
+        li{
+            color: blue;
+            margin: 20px;
+        }
+    }
+}
